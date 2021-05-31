@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Picker</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="display" id="D">
+        </div>
+        <p id="info">rgb(93,58,183)</p>
+          <div class="input-area">
+            <span>Red</span>
+            <input type="range" value="93" min="0" max="255" oninput="main()" id="red">
+          </div>
+          <div class="input-area">
+            <span>Green</span>
+            <input type="range" value="58" min="0" max="255" oninput="main()" id="green">
+          </div>
+          <div class="input-area">
+            <span>Blue</span>
+            <input type="range" value="183" min="0" max="255" oninput="main()" id="blue">
+          </div>
+          <div class="input-area">
+            <span>A</span>
+            <input type="range" value="100" min="0" max="100" oninput="main()" id="A">
+          </div>
+          <b>~Aman Singh</b>
+      </div>
+    </div>
+  </body>
+</html>
